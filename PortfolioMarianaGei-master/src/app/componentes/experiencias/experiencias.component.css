@@ -1,0 +1,17 @@
+div{
+    background-color: #645CAA;
+    text-align: justify;
+}
+@media(max-width:575px){
+div{
+    text-align: justify;
+}
+}
+#lista{
+    font-size: x-large;
+    font-weight: bold;
+}
+#texto{
+    font-size: medium;
+    font-weight: lighter;
+}
