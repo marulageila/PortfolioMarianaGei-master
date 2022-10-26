@@ -16,6 +16,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { HysskillsComponent } from './componentes/hysskills/hysskills.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
       outerStrokeColor: "#7A4495",
       innerStrokeColor: "#A084CA",
       animationDuration: 300,
-    })
+    }),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
